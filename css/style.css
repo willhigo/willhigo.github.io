@@ -1,0 +1,30 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, dl, dt, dd, blockquote, address {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font: 1em/1.4 Catamaran, sans-serif;
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4em;
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 400;
+  color: #666; 
+  margin-bottom: 2em;
+}
+.center {
+  text-align: center;
+}
+.padded {
+  margin: 1em;
+}
+.hidden {
+  display: none;
+}
+
