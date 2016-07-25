@@ -1,13 +1,13 @@
-html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, dl, dt, dd, blockquote, address {
+html, body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
 }
 html {
-  font: 1em/1.4 Catamaran, sans-serif;
+  font: 1em/2.5em Catamaran, sans-serif;
   background: rgb(245, 245, 235);
 }
 body {
-  max-width: 800px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 4em;
 }
@@ -47,4 +47,8 @@ a {
 }
 .foreground {
   z-index: 10;
+}
+.container {
+  line-height: 0;
+  text-align: center;
 }
