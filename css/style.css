@@ -22,15 +22,29 @@ h3 {
   font-weight: 400;
   margin-bottom: 2em;
 }
+a {
+  color: #666;
+}
 .center {
   text-align: center;
 }
 .padded {
   margin: 1em;
 }
-.hidden {
-  display: none;
+.transparent {
+  opacity: 0;
 }
-a {
-  color: #666;
+.thumbnail-container {
+  width: 360px;
+  height: 225px;
+  position: relative;
+  display: inline-block;
+}
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.foreground {
+  z-index: 10;
 }
