@@ -7,7 +7,7 @@ html {
   background: rgb(245, 245, 235);
 }
 body {
-  max-width: 720px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 4em;
 }
@@ -48,7 +48,21 @@ a {
 .foreground {
   z-index: 10;
 }
+.middle {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 25em;
+  height: 8em;
+}
 .container {
   line-height: 0;
   text-align: center;
+}
+.plain {
+  text-decoration: none;
+  color: inherit;
 }
