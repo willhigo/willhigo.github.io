@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    {{ content }}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/1.6.6/lity.min.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="/javascript/thumbnails.js"></script>
+    {% include analytics.html %}
+  </body>
+</html>
