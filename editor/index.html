@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Will Higo - Director
+title: Will Higo - Editor
 ---
 <h1 class="center"><a rel="home" href="/thunderhoof.html" class="plain">Will Higo</a></h1>
 <h2 class="center">
@@ -11,7 +11,7 @@ title: Will Higo - Director
 <div class="container"
   {% for video in site.data.editor %}
   ><span class="thumbnail-container"
-    ><iframe name="{{ id }}" src="https://player.vimeo.com/video/{{ video.id }}?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="360" height="225" frameborder="0" class="absolute player" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe
+    ><div class="absolute player" data-vimeo-id="{{ video.id }}" data-vimeo-width="360" data-vimeo-height="225" data-vimeo-title="false" data-vimeo-byline="false" data-vimeo-portrait="false" data-vimeo-badge="false"></div
     ><img src="/images/{{ video.image }}" class="absolute foreground thumbnail" alt width="360" height="225"
   ></span
   {% endfor %}

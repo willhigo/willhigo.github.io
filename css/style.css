@@ -22,6 +22,7 @@ h2 {
 }
 h3 {
   font-weight: 400;
+  line-height: 2;
   margin-bottom: 2em;
 }
 a {
@@ -58,6 +59,16 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.middle {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 25em;
+  height: 5em;
+}
 .splash {
   background: #363841 url('/images/splash.jpg') no-repeat;
   background-size: cover;
@@ -73,16 +84,6 @@ a {
 }
 .splash h3 {
   margin: 0;
-}
-.middle {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 25em;
-  height: 5em;
 }
 .box {
   background: #000;

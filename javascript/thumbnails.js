@@ -18,6 +18,6 @@
         var player = new Vimeo.Player($(this).find('.player'));
 
         player.pause();
-        lightbox($(this).find('.player').attr('src'));
+        lightbox('//vimeo.com/' + $(this).find('.player').data('vimeo-id'));
     });
 }(jQuery));
