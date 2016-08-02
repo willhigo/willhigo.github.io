@@ -53,6 +53,11 @@ a {
   top: 0;
   left: 0;
 }
+.absolute-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 .foreground {
   z-index: 10;
 }
