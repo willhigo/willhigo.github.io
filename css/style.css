@@ -47,6 +47,7 @@ a {
   height: 225px;
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 .absolute {
   position: absolute;
