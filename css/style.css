@@ -69,6 +69,20 @@ a {
   line-height: 0;
   text-align: center;
 }
+.text-container {
+  line-height: 1.4;
+  text-align: left;
+  padding: 1em;
+  border: 1px solid #666;
+  color: #333;
+  background: #f9f9f9;
+}
+.text-container p {
+  margin-bottom: 1em;
+}
+.text-container p:last-child {
+  margin-bottom: 0;
+}
 .plain {
   text-decoration: none;
   color: inherit;
@@ -139,6 +153,9 @@ a {
 }
 .icon-envelop:before {
   content: "\e945";
+}
+.icon-info:before {
+  content: "\ea0c";
 }
 .icon-instagram:before {
   content: "\ea92";
