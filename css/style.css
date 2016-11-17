@@ -24,11 +24,13 @@ h1, h2 {
 h1 {
   font-size: 3em;
   letter-spacing: 1em;
-  line-height: 1;
-  margin-bottom: 0.75em;
+  margin-right: -1em;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
 }
 h2 {
   letter-spacing: 0.5em;
+  margin-right: -0.5em;
   color: #666;
   line-height: 1;
   margin-bottom: 1.1em;
