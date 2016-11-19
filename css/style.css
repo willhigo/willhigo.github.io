@@ -95,22 +95,9 @@ a:hover {
 .text-container p {
   margin-bottom: 1em;
 }
-.text-container p:last-child {
-  margin-bottom: 0;
-}
 .plain {
   text-decoration: none;
   color: inherit;
-}
-.middle {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 25em;
-  height: 5em;
 }
 .strip {
   background: #000;
@@ -120,20 +107,13 @@ a:hover {
   color: #fff;
   line-height: 1.4;
 }
-.fadein {
-  animation: fadein 2s;
-}
-@keyframes fadein {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
 @font-face {
   font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?ntq3a1');
-  src:  url('/fonts/icomoon.eot?ntq3a1#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?ntq3a1') format('truetype'),
-    url('/fonts/icomoon.woff?ntq3a1') format('woff'),
-    url('/fonts/icomoon.svg?ntq3a1#icomoon') format('svg');
+  src:  url('/fonts/icomoon.eot?7l727e');
+  src:  url('/fonts/icomoon.eot?7l727e#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?7l727e') format('truetype'),
+    url('/fonts/icomoon.woff?7l727e') format('woff'),
+    url('/fonts/icomoon.svg?7l727e#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -159,4 +139,7 @@ a:hover {
 }
 .icon-twitter:before {
   content: "\ea96";
+}
+.icon-vimeo:before {
+  content: "\eaa0";
 }
