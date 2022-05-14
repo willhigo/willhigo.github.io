@@ -67,6 +67,12 @@ a:hover {
   display: inline-block;
   cursor: pointer;
 }
+.thumbnail-container--no-link {
+  width: 360px;
+  height: 225px;
+  position: relative;
+  display: inline-block;
+}
 .absolute {
   position: absolute;
   top: 0;
@@ -106,6 +112,11 @@ a:hover {
   padding: 1em 10px;
   color: #fff;
   line-height: 1.4;
+}
+.portrait {
+  display: block;
+  max-width: 100%;
+  margin: 2em auto;
 }
 @font-face {
   font-family: 'icomoon';
