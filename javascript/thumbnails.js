@@ -15,9 +15,14 @@
         player.pause();
     })
     .on('click', function () {
-        var player = new Vimeo.Player($(this).find('.player'));
+        var playerElement = $(this).find('.player'),
+            player = new Vimeo.Player(playerElement);
 
         player.pause();
-        lightbox('//vimeo.com/' + $(this).find('.player').data('vimeo-id'));
+        if (playerElement.data('vimeo-url')) {
+            lightbox(playerElement.data('vimeo-url'))
+        } else {
+            lightbox('//vimeo.com/' + $(this).find('.player').data('vimeo-id'));
+        }
     });
 }(jQuery));

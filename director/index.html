@@ -6,8 +6,8 @@ title: Will Higo - Director
 
 <div class="container"
   {% for video in site.data.director %}
-  ><span class="thumbnail-container{% unless video.id %}--no-link{% endunless %}"
-    >{% if video.id %}<div class="absolute player" data-vimeo-id="{{ video.id }}" data-vimeo-width="360" data-vimeo-height="225" data-vimeo-title="false" data-vimeo-byline="false" data-vimeo-portrait="false" data-vimeo-badge="false"></div
+  ><span class="thumbnail-container{% unless video.id or video.url %}--no-link{% endunless %}"
+    >{% if video.id or video.url %}<div class="absolute player"{% if video.id %} data-vimeo-id="{{ video.id }}"{% endif %}{% if video.url %} data-vimeo-url="{{ video.url }}"{% endif %} data-vimeo-width="360" data-vimeo-height="225" data-vimeo-title="false" data-vimeo-byline="false" data-vimeo-portrait="false" data-vimeo-badge="false"></div
     >{% endif %}<img src="/images/{{ video.image }}" class="absolute foreground thumbnail fade" alt="{{ video.title }}" width="360" height="225"
     ><span class="absolute-bottom strip thumbnail forerground fade">{{ video.title }}</span></span
   {% endfor %}
